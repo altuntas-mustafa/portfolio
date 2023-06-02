@@ -26,7 +26,7 @@ export default {
         name: "Portfolio",
         desc: "My portfolio website was designed to be visually interesting and easy to navigate.",
         tech: "React | TailwindCSS | FramerMotion | React Form Hook | EmailJS API | Vite",
-        img: "./assets/portfolio.png",
+        img: "public/assets/travel-bucket app.png",
         link: "https://github.com/dinbusan/portfolio",
       },
     ],
