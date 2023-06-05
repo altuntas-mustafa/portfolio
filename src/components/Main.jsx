@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import Typical from "react-typical";
 
 const Main = () => {
   const [isTyping, setIsTyping] = useState(false);
   const text = "I am Mustafa";
   const text1 = " ";
   const text2 = "I am Mustafa";
-
 
   useEffect(() => {
     const toggleTyping = () => {
@@ -29,7 +27,7 @@ const Main = () => {
           transition={{ duration: 0.5 }}
           className="text-5xl sm:text-7xl md:text-8xl xl:text-9xl"
         >
-          <Typical steps={[text, 3000,text1, 3000,text2, 3000]} loop={Infinity} wrapper="span" />
+          {text}
         </motion.h1>
         <motion.h1
           initial={{ opacity: 0, x: 100 }}
