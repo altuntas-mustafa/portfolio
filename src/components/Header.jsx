@@ -125,7 +125,7 @@ const Header = () => {
               <li className="w-[160px] h-[60px] pl-3 pr-4 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-500">
                 <a
                   className="flex justify-between items-center w-full text-gray-100"
-                  href="assets/MUSTAFA ALTUNTAS .pdf"
+                  href="assets/MUSTAFA ALTUNTAS.pdf"
                   download="Mustafa_Altuntas_Resume.pdf"
                 >
                   Resume <BsFillPersonLinesFill size={30} />

@@ -57,7 +57,7 @@ const About = () => {
         <motion.div className="xl:order-last w-3/4 md:w-1/3 mx-auto mb-5 lg:ml-20 lg:pt-20 xl:ml-5 xl:pt-0 xl:w-1/4 xl:mt-16">
           <img
             className="object-cover"
-            src="/public/assets/mustafa_pic2.jpg"
+            src="/assets/mustafa_pic2.jpg"
             alt=""
           />
         </motion.div>
