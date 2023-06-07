@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import Typical from "react-typical";
+import ReactTypical from 'react-typical';
+
 
 const Main = () => {
   const [isTyping, setIsTyping] = useState(false);
@@ -29,7 +30,7 @@ const Main = () => {
           transition={{ duration: 0.5 }}
           className="text-5xl sm:text-7xl md:text-8xl xl:text-9xl"
         >
-          <Typical steps={[text, 3000,text1, 3000,text2, 3000]} loop={Infinity} wrapper="span" />
+          <ReactTypical steps={[text, 3000,text1, 3000,text2, 3000]} loop={Infinity} wrapper="span" />
         </motion.h1>
         <motion.h1
           initial={{ opacity: 0, x: 100 }}
