@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import Typical from "react-typical";
 
 const Main = () => {
   const [isTyping, setIsTyping] = useState(false);
   const text = "I am Mustafa";
   const text1 = " ";
   const text2 = "I am Mustafa";
+
 
   useEffect(() => {
     const toggleTyping = () => {
@@ -27,7 +29,7 @@ const Main = () => {
           transition={{ duration: 0.5 }}
           className="text-5xl sm:text-7xl md:text-8xl xl:text-9xl"
         >
-          {text}
+          <Typical steps={[text, 3000,text1, 3000,text2, 3000]} loop={Infinity} wrapper="span" />
         </motion.h1>
         <motion.h1
           initial={{ opacity: 0, x: 100 }}
@@ -49,7 +51,7 @@ const Main = () => {
         <div className="bg-amber-400 w-60 h-60 md:h-72 md:w-72 xl:h-80 xl:w-80 rounded-full">
           <img
             className="object-top h-full w-full object-cover rounded-full"
-            src="./assets/mustafa_pic4.jpg"
+            src="./mustafa_pic4.jpg"
             alt=""
           />
         </div>
