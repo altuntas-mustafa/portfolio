@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import projectsData from "../../projectsData";
-
+import "../styles/projects.css"
 const Projects = () => {
   const [openProjectId, setOpenProjectId] = useState(null);
   const projects = projectsData.data.projects;
@@ -62,11 +62,14 @@ const Projects = () => {
             </a>
           </motion.p>
           <motion.div layout className="max-w-100% h-auto mt-0 mx-auto">
+            <div className="max-w-100% h-auto mt-0 mx-auto project-image-container">
             <img
-              className="md:h-72 mx-auto object-scale-down"
+              className="md:h-72 mx-auto object-scale-down img-with-border"
               src={project.img}
               alt=""
             />
+            </div>
+            
           </motion.div>
           {project.id !== openProjectId && (
             <p className="mt-1 text-center hover:scale-105">

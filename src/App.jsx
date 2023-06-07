@@ -1,7 +1,7 @@
 import AnimatedRoutes from "./components/AnimatedRoutes";
 import Header from "./components/Header";
 // import Footer from "./components/Footer";
-import "./styles.css";
+// import "./styles.css";
 
 function App() {
   return (
