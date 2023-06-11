@@ -14,7 +14,7 @@ function App() {
         loop
         muted
       >
-        <source src="/assets/fade_in_out.mp4" type="video/mp4" />
+        <source src="/assets/sun_rays.mp4" type="video/mp4" />
       </video>
       <div className="md:hidden absolute inset-0">
         <img

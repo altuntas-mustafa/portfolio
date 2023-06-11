@@ -22,7 +22,7 @@ const Main = () => {
 
   return (
     <motion.div className="flex-col xl:inline-flex absolute w-full">
-      <div className="select-none mt-20 lg:mt-30 mx-auto xl:mt-40 xl:ml-40 text-center xl:text-left text-white roddenberry bg-black bg-opacity-20 md:bg-opacity-40">
+      <div className="select-none mt-20 lg:mt-30 mx-auto xl:mt-40 xl:ml-40 text-center xl:text-left text-white roddenberry ">
         <motion.h1
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
