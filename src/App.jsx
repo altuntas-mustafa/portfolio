@@ -1,28 +1,17 @@
 import AnimatedRoutes from "./components/AnimatedRoutes";
 import Header from "./components/Header";
-// import Footer from "./components/Footer";
-// import "./styles.css";
+import videoFile from "../src/assets/sun_rays.mp4";
 
 function App() {
   return (
-    <div
-      className="relative h-screen w-screen"
-    >
-      <video
-        className="hidden md:block fixed inset-0 h-full w-full object-cover z-0"
-        autoPlay
-        loop
-        muted
-      >
-        <source src="/assets/sun_rays.mp4" type="video/mp4" />
+    <div className="relative h-screen w-screen">
+      <video className="hidden md:block fixed inset-0 h-full w-full object-cover z-0" autoPlay loop muted>
+        <source src={videoFile} type="video/mp4" />
       </video>
       <div className="md:hidden absolute inset-0">
-        <img
-          className="fixed h-full w-full object-cover"
-          src="./assets/stars_img2.jpg"
-          alt=""
-          // style={{ position: "fixed" }}
-        />
+        <video className="fixed h-full w-full object-cover" autoPlay loop muted>
+          <source src={videoFile} type="video/mp4" />
+        </video>
       </div>
 
       <div className="relative z-1 h-full w-full">

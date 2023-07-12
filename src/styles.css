@@ -8,49 +8,6 @@
   }
 }
 
-@font-face {
-  /* font-family: 'Dancing Script', cursive; */
-font-family: 'Roboto', sans-serif;
-/* font-family: 'Righteous', cursive; */
-  /* font-family: 'Dancing Script', cursive;
-  font-family: 'Righteous', cursive; */
-  /* font-family: "Startrekfuture"; */
-  src: url("/assets/fonts/star-trek-future-font/Startrekfuture-EK6e.ttf")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.star-trek {
-  /* font-family: 'Dancing Script', cursive;
-  font-family: 'Righteous', cursive; */
-  /* font-family: 'Dancing Script', cursive; */
-  font-family: 'Roboto', sans-serif;
-  /* font-family: 'Righteous', cursive; */
-  /* font-family: "Startrekfuture", sans-serif; */
-}
-
-@font-face {
-  /* font-family: 'Dancing Script', cursive; */
-font-family: 'Roboto', sans-serif;
-/* font-family: 'Righteous', cursive; */
-  /* font-family: 'Dancing Script', cursive;
-  font-family: 'Righteous', cursive; */
-  /* font-family: "Roddenberry"; */
-  src: url("/assets/fonts/roddenberry-font/Roddenberry-DgLm.ttf")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.roddenberry {
-  /* font-family: 'Righteous', cursive;
-  font-family: 'Dancing Script', cursive; */
-  /* font-family: "Roddenberry", sans-serif; */
-  /* font-family: 'Dancing Script', cursive; */
-font-family: 'Roboto', sans-serif;
-/* font-family: 'Righteous', cursive; */
-}
 
 .projects-container {
   position: relative;
