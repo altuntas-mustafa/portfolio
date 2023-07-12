@@ -52,7 +52,7 @@ const Main = () => {
         <div className="bg-amber-400 w-60 h-60 md:h-72 md:w-72 xl:h-80 xl:w-80 rounded-full">
           <img
             className="object-top h-full w-full object-cover rounded-full"
-            src="src/assets/mustafa_pic4.jpg"
+            src="/assets/mustafa_pic4.jpg"
             alt=""
           />
         </div>

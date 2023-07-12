@@ -1,6 +1,6 @@
 import AnimatedRoutes from "./components/AnimatedRoutes";
 import Header from "./components/Header";
-import videoFile from "../src/assets/sun_rays.mp4";
+import videoFile from "/assets/sun_rays.mp4";
 
 function App() {
   return (
