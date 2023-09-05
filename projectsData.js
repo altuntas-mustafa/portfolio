@@ -15,11 +15,11 @@ export default {
       },
       {
         id: uuidv4(),
-        name: "Travel-Bucket-List",
-        desc: "DevHub is a social media website designed for developers to connect and collaborate on development projects.",
-        tech: "JavaScript | TypeScript |React | Node.js | HTML | CSS | MongoDB | Opentripmap API",
-        img: "/assets/travel-bucket app.png",
-        link: "https://github.com/dinbusan/dev-hub",
+        name: "Word-Mind",
+        desc: "Word-Mind is Flashcard App to learn language word quickly",
+        tech: "JavaScript |React | Node.js | HTML | Tailwind | Firebase ",
+        img: "/assets/word-mind.png",
+        link: "https://word-mind-mustafa-altuntas.vercel.app/",
       },
       {
         id: uuidv4(),
